@@ -6,52 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="css/contacts.css">
 </head>
 
 <body>
     <header>
         <a name="Top"></a>
-        <h2>Portfolio</h2>
-        <ul type="square">
-            <li><a href="checkpoint2.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
+        <div class="navbar">
+
+            <h2 id="portfolio">Portfolio</h2>
+
+            <div class="navelement">
+                <a id="about" href="checkpoint2.html">About</a>
+                <a id="projects" href="projects.html">Projects</a>
+                <a id="contact" href="Contact.html">Contact</a>
+
+            </div>
+        </div>
         <center>
             <div>
                 <center>
                     <h1>Contact me</h1>
                 </center>
-                <form>
-                    <center> <label>Name:</label> <br> <input type="text"></br>
-                        <label>Email:</label> <br> <input type="text"></br>
-                        <label>password:</label> <br> <input type="text"></br>
-                        <label>Age:</label> <br> <input type="number"></br>
-                        <label>Gender:</label>
-                    </center>
+                <form class="form">
+                    <fieldset>
+                        <legend id="sign">Sign up</legend>
+                        <label for="fname" >First name:</label><br>
+                        <input type="text" id="fname" name="fname"  size="30"><br><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"  size="30"><br><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" size="30"><br>
+                        <label for="gender">gender:</label><br>
+                        <select class="gender">
+
+
+                            
+                            <option value="Male">Male</option>
+                            <option value="FeMale">Female</option>
+        
+        
+                        </select><br>
+                        <label for="birthday">Birthday:</label><br>
+                        <input type="date" id="birthday" name="birthday"  size="30"><br><br>
+                        <textarea id="textarea" name="review" rows="4" cols="25" placeholder="your note !"> </textarea>
+                        <input id="submit" type="submit" value="Submit"><br>
+                        
+                      </fieldset>
                 </form>
-                <select>
-
-
-                    
-                    <option value="Male">Male</option>
-                    <option value="FeMale">Female</option>
-
-
-                </select>
+               
         </center>
         </div>
 
         <footer>
-            <hr>
-            <h3> wael zegneni</h3><br>
-            <h3>24445693</h3><br>
+            <div class="footer">
 
-            <h3>waelzegneni@gmail.com</h3>
-            <img width="150" height="150" src="res/codewars.webp" alt="codewars">
-            <img width="150" height="150" src="res/linked in.png" alt="lineked in">
-            <img width="150" height="150" src="res/github.png" alt="codewars">
-            </hr>
+                <div class="info">
+                    <h2 id="contactme">Contact Me</h2>
+                    <h4> wael zegneni</h4>
+                    <h4>24445693</h4>
+                    <h4>waelzegneni@gmail.com</h4>
+                </div>
+
+
+                <div class="socials">
+                    <a id="codewars" target="blank" href="https://www.codewars.com/"><img width="50" height="50"
+                            src="res/codewars.webp" alt="codewars"></a>
+                    <a id="linked" target="blank" href="https://fr.linkedin.com/"><img width="50" height="50"
+                            src="res/linked in.png" alt="lineked in"></a>
+                    <a id="git" target="blank" href="https://github.com/"> <img width="50" height="50"
+                            src="res/github.png" alt="githib"></a>
+                </div>
+
+                <div id="design">
+                    <h3>Designed by wael</h3>
+                </div>
+
+            </div>
 
         </footer>
 </body>

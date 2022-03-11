@@ -1,0 +1,177 @@
+head{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 10px;;
+    width: 100%;
+    height: 100%;
+    
+    
+    
+    
+    padding-top: 1cm;
+    padding-bottom: 0.5cm;
+    box-sizing: content-box;
+    }
+    
+    
+    .navelement{
+        display: flex;
+        margin-left: 36cm;
+        
+        margin-top: -1.2cm;
+    }
+    #portfolio{
+        
+        color: white;
+         margin-top: -1.2cm;
+         
+        
+    }
+    #about{
+        margin-right: 0.5cm;  
+        text-decoration: none;
+        color: white;
+        
+    }
+    #about:hover{
+        
+        color: orange;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    #projects{
+        margin-right: 0.5cm;
+        text-decoration: none;
+        color: white;
+    }
+    #projects:hover{
+        color: orange;
+            transition: 0.5s;
+        
+    }
+    #contact{
+        text-decoration: none;
+        color: white;
+    }
+    #contact:hover{
+        text-decoration: none;
+        color: orange;
+        transition: 0.5s;
+    }
+   /*content*/
+   h1{
+       font-size:1.5cm;
+       color: darkgoldenrod;
+   }
+   form{
+    width: 7cm;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    text-align: left;
+   }
+   body{
+    background-color: #2F375B;
+   }
+#sign{
+    color: white;
+    font-size: larger;
+}
+#submit{
+   font-size: 13px;
+   color:white;
+   background-color: black;    
+   height: 40px;
+   width: 100px;
+}
+#submit:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+   
+}
+.gender{
+    text-align: center;
+    right: 0%;
+    
+}
+    /*footer*/
+    footer{
+        
+        left: 0;
+        
+        width: 100%;
+        background-color: rgb(128, 128, 128);
+        top:40%;
+        
+       
+       position: absolute;     
+       margin-top: 10cm;
+      }
+      #portfolio{
+          margin-left: 5%;
+          color: white;
+          
+      }
+      .footer{
+          clear:both;
+          display: flex;
+          justify-content: space-around;
+          
+          
+      }
+      .info{
+          padding-left: 0px;
+          padding-right: 10px; 
+          margin-top: -0.3cm;
+         margin-right: 10%;
+          text-align: center;
+          
+        }
+      #design{
+          color: yellow;
+          margin-top: 2cm;
+         
+      }
+      #codewars{
+         
+          margin-right: 1cm;
+      }
+      #codewars:hover{
+          transform: rotateY(360deg);
+          transition: 1s;
+      }
+      #linked{
+          
+          margin-right: 1cm;
+      }
+      #linked:hover{
+          transform: rotateY(360deg);
+          transition: 1s;
+      }
+      #git:hover{
+          transform: rotateY(360deg);
+          transition: 1s;
+      }
+      #contactme{
+          color: white;
+          font: bold;
+          font-size: 1cm;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          margin-right: 0cm;
+          text-align: left;
+          
+      }
+      .socials{
+         padding-top: 2cm;
+         padding-right: 20cm;
+         margin-left: 9cm;
+         display: flex;
+         
+      
+      }

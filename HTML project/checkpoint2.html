@@ -6,37 +6,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
     <header>
+        <div class="navbar">
+            <style>
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
 
-        <h2>Portfolio</h2>
-        <ul type="square">
-            <li><a href="#">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-        </ul>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/01sAkU_NvOY">  </iframe>
+                a:hover {
+                    color: orange;
+                    transition: 1s;
+                }
+            </style>
+            <h2 id="portfolio">Portfolio</h2>
+            <div class="contacts">
+                <p id="about">
+                    <a href="#">About</a>
+
+                </p>
+                <p id="projects">
+                    <a href="projects.html">Projects</a>
+                </p>
+                <p id="contact">
+                    <a href="Contact.html">Contact</a>
+
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+
+        <h1>Hi i'm wael</h1>
+        <h3>A software developper</h3><br>
+        <div class="images">
+            <img id="html" width="90" height="90" src="res/html5.png" alt="html">
+            <img id="css" width="90" height="90" src="res/css2.png" alt="css">
+            <img id="js" width="90" height="90" src="res/js2.png" alt="js">
+            <img id="b" width="90" height="" src="res/boot5it.png" alt="b">
+        </div>
     </header>
-    <h1>Hi i'm wael</h1><br>
-    <h3>A software developper</h3>
-    <img width="150" height="150" src="res/html.png" alt="html">
-    <img width="150" height="150" src="res/css.png" alt="css">
-    <img width="300" height="150" src="res/js.png" alt="js">
-    <img width="150" height="150" src="res/b.png" alt="b">
+
+
     <footer>
-        <hr>
-        <h3> wael zegneni</h3><br>
-        <h3>24445693</h3><br>
+        <div class="footer">
+            
+            <div class="info">
+                <h2 id="contactme">Contact Me</h2>
+                <h4> wael zegneni</h4>
+                <h4>24445693</h4>
+                <h4>waelzegneni@gmail.com</h4>
+            </div>
 
-        <h3>waelzegneni@gmail.com</h3>
-        <img width="150" height="150" src="res/codewars.webp" alt="codewars">
-        <img width="150" height="150" src="res/linked in.png" alt="lineked in">
-        <img width="150" height="150" src="res/github.png" alt="codewars">
-        </hr>
 
+            <div class="socials">
+               <a id="codewars" target="blank" href="https://www.codewars.com/"><img width="50" height="50" src="res/codewars.webp" alt="codewars"></a> 
+               <a id="linked" target="blank" href="https://fr.linkedin.com/"><img width="50" height="50" src="res/linked in.png" alt="lineked in"></a> 
+               <a id="git" target="blank"  href="https://github.com/"> <img width="50" height="50" src="res/github.png" alt="githib"></a> 
+            </div>
+
+            <div id="design">
+                <h3>Designed by wael</h3>
+            </div>
+
+        </div>
     </footer>
+
+
 </body>
 
 </html>
