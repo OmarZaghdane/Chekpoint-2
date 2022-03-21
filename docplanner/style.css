@@ -1,0 +1,349 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*navbar*/
+.navbar-brand{
+    
+    size: 20vw;
+    margin-right: 40vw;
+    margin-left: 15vw;
+    margin-top: 2vw;
+    width: 20vw;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+    align-items: flex-start;
+    justify-content: space-between;
+    display: flex;
+    
+    font-size: 30vw;
+    
+ 
+}
+#navbarSupportedContent{
+    padding-top: 2vw;
+    
+}
+.container-fluid{
+    position: fixed;
+    color: white;
+    background-color: white;
+    z-index: 500;
+}
+.nav-link:hover{
+color: darkcyan;
+}
+.collapse navbar-collapse{
+    margin-left: 10vw;
+    justify-content: space-between;
+    
+}
+/*navbar end*/
+
+
+/*body*/
+.The-body{
+    margin-top: 7vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    
+    
+ }
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    display: block;
+    height: 3vw;
+    width: 3vw;
+    
+}
+h1{
+    color: #00b39b;
+    font: italic;
+    margin-top: 1vw;
+    
+}
+.paragraphs{
+    display: flex;
+    margin-top: 1vw;
+    justify-content: space-around;
+    opacity: 75%;
+    
+    
+}
+/*frst block*/
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.select{
+    margin-top: 7vw;
+    height: 10vw;
+    width: 10vw;
+    font-size: 1vw;
+    
+}
+.all-select{
+    margin-top: 5vw;
+    font-size: 1vw;
+    
+}
+.select2{
+    margin-top: 1vw;
+    font-size: 1vw;
+    
+}
+.for-patients{
+    background-color:#00b39b ;
+    margin-top: 1vw;
+    display: inline-block;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 1vw;
+    color: white;
+    font: bold;
+    font-size: 0.5vw;
+    
+}
+
+#for-doctors{
+    background-color: blue;
+    opacity: 80%;
+}
+#for-clinics{
+    background-color: black;
+    opacity: 90%;
+}
+
+
+
+#for-patients{
+    
+    margin-left: 1vw;
+    font-size: 2vw;
+    font: bold;
+}
+#patient-png{
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+#find{
+    text-align: center;
+    width:90%;
+    font-size: 1vw;
+    margin-left: 1vw;
+}
+/*second block*/
+.for-doctors{
+    background-color:blue ;
+    margin-top: 1vw;
+    display: inline-block;
+    height: 23vw;
+    width: 20vw;
+    border-radius: 25vw;
+    color: white;
+    font: bold;
+    font-size: 0.5vw;
+    margin-bottom: 1vw;
+}
+/*under card*/
+h2{
+    margin-left: 2cm;
+    color: #00b39b;
+    margin-top: 1vw;
+    font:italic
+    
+}
+
+/*secind party=*/
+.outside-div{
+    background-color: #e5faf8;
+    height: 45vw;
+}
+#healthcare-platform{
+    margin-left: 15vw;
+    font-family:'Times New Roman', Times, serif;
+}
+#p{
+    margin-left: 15vw;
+    opacity: 50%;
+}
+#logo-bottom{
+    margin-left: 15vw;
+   height: 31vw;
+   width: 40vw;
+   
+}
+.container{
+    float: right;
+    text-align: right ;    
+}
+.Box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 18vw;
+    justify-content: space-between;
+    margin-top: -40vw;
+    margin-left: 50vw;
+    
+    
+}
+#p1{
+    color:#00b39b ;
+    text-align: center;
+    
+}
+#img{
+    padding-right: 2.5vw;
+}
+.col{
+    background-color: white;
+    
+    height: 16vw;
+    width: 20vw;
+    margin-right: 1vw;
+}
+#p3{
+    text-align: center;
+    opacity: 45%;
+    font-size: smaller;
+}
+#margin-collomn{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    
+}
+
+#h1{
+    text-align: center;
+}
+#p2{
+    text-align: center;
+    opacity: 75%;
+}
+/*imaegs*/
+.under-cards{
+    height: 10vw;
+}
+.Images-block{
+    display: flex;
+    width: 50vw;
+    height: 10vw;
+    float: right;
+    margin-right: 5vw;
+    margin-top: -7vw;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#img1{
+    height: 1vw;
+    width: 2vw;
+    height: 2vw;
+    width: auto;
+    margin-left: 2vw;
+    
+    filter: grayscale(100%);
+    
+  
+}
+#img1:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
+
+/*before last blocks*/
+.container{
+    display: grid;
+}
+.col{
+    justify-self: start;
+}
+/*last-blocks*/
+.The-body-below{
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Blocks-below{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block{
+    margin: 30px 30px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+   -webkit-transition: all 1s ease;
+   
+   border: 1px solid transparent;
+}
+
+
+.block:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    background: #e1e1e1;
+    border-top: 1px solid #d0d0d0;
+  
+  
+    
+}
+.blocks-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+#oppenings{
+    text-decoration: none;
+    background-color: darkcyan;
+    color: white;
+    opacity: 60%;
+    width: 50%;
+    text-align: center;
+    padding-top: 0.2vw;
+}
+#oppenings:hover{
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+
+
+
+/*contact*/
+.contact{
+    text-align: center;
+    margin-top: 2vw;
+}
+#openings2{
+    text-decoration: none;
+    border: 50vw ;
+    background-color: darkcyan;
+    color: white;
+    opacity: 60%;
+    height: 30vw;
+}
+#openings2:hover{
+    opacity: 100%;
+    transition: 0.5s;
+}
+/*body end*/
+/*footer*/
+#footer-para{
+    opacity: 50%;
+    font-size: smaller;
+}
