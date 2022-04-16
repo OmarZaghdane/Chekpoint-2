@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(#FDC830,#F37335);
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align:center;
+    margin-top:3vw;
+}
+h5{
+    text-align: center;
+}
+.Container{
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 6vw;
+    width: 80vw;
+    height: 30vw;
+}
+.cards{
+    justify-content: space-around;
+    display: flex;
+    height: 35vw;
+    
+}
+.num{
+    -moz-appearance: textfield;
+}
+.suppr{
+    
+    text-align: center;
+}
+.add-remove{
+  text-align: center;
+  display: flex;
+  padding-top: 1vw;
+  justify-content: space-between;
+  width: 3vw;
+}
+#num{
+    width: 2vw;
+}
+input,button{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 4vw;
+    
+}
+#add,#subtract{
+    
+    background:local;
+    cursor: pointer;
+    
+}
+.fa fa-thumbs-up{
+    font-size: 60px;
+    align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
